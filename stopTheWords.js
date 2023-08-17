@@ -9,8 +9,8 @@ function spinWords(string){
           obj[word] = obj[word].split('').reverse().join('')
         }
       }
+      
     let result = Object.values(obj).join(' ')
     return result
     
   }
-  
